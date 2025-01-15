@@ -2,8 +2,6 @@
 // DROGUM (v0.7a) The Text Based Horror Adventure Game!
 // Here you can find the code to downloadand run the DROGLUM horror adventure game!
 
-// Run this video game program in Visual Studio Code !
-
 #include <iostream> 
 #include <string> 
 using namespace std; 
@@ -33,13 +31,16 @@ default: cout << "Invalid choice. Please try again." << endl; break;
 } 
 } 
 
-int main() { 
-	int choice; displayIntro(); 
-	while (true) { 
-		displayMenu(); cin >> choice; 
-		if (choice == 5) { processInput(choice); break; 
-		} 
-		else { processInput(choice); 
-		} 
-	} 
+int main() {
+	int choice; displayIntro();
+	while (true) {
+		displayMenu(); cin >> choice;
+		if (choice == 5) {
+			processInput(choice); break;
+		}
+		else {
+			processInput(choice);
+		}
+	}
 	return 0;
+}
