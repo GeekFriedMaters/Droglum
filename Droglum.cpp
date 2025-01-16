@@ -5,8 +5,20 @@
 #include <iostream> 
 #include <string> 
 using namespace std; 
-void displayIntro() { 
-cout << "DROGLUM" << endl; 
+void displayIntro() {
+	cout << " d8888b.  d8888b.   .d88b.    d888b   db       db    db  .88b  d88.   TM" << endl;
+	cout << " 88  `8D  88  `8D  .8P  Y8.  88' Y8b  88       88    88  88'YbdP`88" << endl;
+	cout << " 88   88  88oobY'  88    88  88       88       88    88  88  88  88 " << endl;
+	cout << " 88   88  88`8b    88    88  88  ooo  88       88    88  88  88  88 " << endl;
+	cout << " 88  .8D  88 `88.  `8b  d8'  88. ~8~  88booo.  88b  d88  88  88  88" << endl;
+	cout << " Y8888D'  88   YD   `Y88P'    Y888P   Y88888P  ~Y8888P'  YP  YP  YP" << endl;
+	cout << "" << endl;
+cout << "DROGUM (v0.7a) The Text Based Horror Adventure Video Game Software!" << endl; 
+cout << "   " << endl;
+cout << "   " << endl;
+cout << "   " << endl;
+cout << "=========================================   " << endl;
+cout << "   " << endl;
 cout << "   " << endl;
 cout << "You find yourself in a dark, mysterious forest. Surrounded by Droglum..." << endl; 
 } 
